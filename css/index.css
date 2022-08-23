@@ -11,7 +11,8 @@ body{
     display: flex;
     justify-content:space-around;
     padding: 30px 0px 30px 37px;
-    width: 1600px;
+    max-width: 1600px;
+    margin: auto;
 }
 .font-first{
     font-family: 'Roboto';
@@ -61,7 +62,8 @@ body{
 }
 .header{
     padding: 20px;
-    width: 1600px;
+    /*max-width: 1600px;*/
+    margin: auto;
     height: 600px;  
     background: #2f303a;
 }
@@ -76,7 +78,7 @@ body{
 }
 .header-box{
     height: 600px;
-    width: 1600px;
+    /*width: 1600px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,10 +102,11 @@ body{
     list-style: none;
 }
 .description-box{
-    width: 1600px;
+    /*width: 1600px;*/
     display: flex;
     justify-content:space-evenly;
     padding-top: 95px;
+    margin: auto;
 }
 .description-text{
     width: 270px;
@@ -125,13 +128,14 @@ body{
 }
 .job{
     padding: 94px 20px 20px 20px;
-    width: 1600px;
+    /*width: 1600px;*/
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 .job-box-text{
     display: flex;
-    width: 1600px;
+    /*width: 1600px;*/
     justify-content: center;
 }
 .job-text{
@@ -145,14 +149,14 @@ body{
 }
 .job-box-images{
     display: flex;
-    width: 1600px;
+    /*width: 1600px;*/
     justify-content:space-evenly;
     padding-top: 55px;
 }
 .team{
     margin-top: 94px;
     padding-bottom: 95px;
-    width: 1650px;
+    /*width: 1650px;*/
     height: 650px;
     background-color: #F5F4FA;
 }
@@ -173,7 +177,7 @@ body{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 footer{
-    width: 1650px;
+    /*width: 1650px;*/
     height: 255px;
     background: #2f303a;
 }

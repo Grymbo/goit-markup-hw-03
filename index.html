@@ -5,32 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preload" href="/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preload" href="/css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <div class="container-links">
-        <div class="container-nav">
-            <span class="font-second webstudio"> WebStudio</span>
-            <nav>
-                <a class="font-second nav-link" href="./index.html">Estudio</a>
-                <a class="font-second nav-link" href="./portafolio.html">Portafolio</a>
-                <a class="font-second nav-link" href="#">Contactos</a>
-            </nav>
-        </div>
-        <div">
-            <a class="font-second nav-link1" href="#">info@devstudio.com</a>
-            <a class="font-second nav-link1" href="#">+52 55 55296000</a>
-        </div>   
-    </div>
 
-    <header class="header">
-        <div class="header-box">
-            <h1 class="title-header font-first">SOLUCIONES EFICACES PARA <br> SU NEGOCIO</h1>
-            <input class="button-header button-header-text font-first" type="button" value="Solicie nuestro servicio">
+    <header>
+        <div class="container-links">
+            <div class="container-nav">
+                <span class="font-second webstudio"> WebStudio</span>
+                <nav>
+                    <a class="font-second nav-link" href="./index.html">Estudio</a>
+                    <a class="font-second nav-link" href="./portafolio.html">Portafolio</a>
+                    <a class="font-second nav-link" href="#">Contactos</a>
+                </nav>
+            </div>
+            <div>
+                <a class="font-second nav-link1" href="#">info@devstudio.com</a>
+                <a class="font-second nav-link1" href="#">+52 55 55296000</a>
+            </div>   
         </div>
     </header>
 
     <main>
+        <div class="header">
+            <div class="header-box">
+                <h1 class="title-header font-first">SOLUCIONES EFICACES PARA <br> SU NEGOCIO</h1>
+                <input class="button-header button-header-text font-first" type="button" value="Solicie nuestro servicio">
+            </div>
+        </div>
+
         <ul class="list">
             <div class="description-box">
                 <li>
@@ -138,14 +144,13 @@
     <footer>
         <div class="footer-box">
             <span class="font-second webstudio">WebStudio</span>
-            <address class="footer-text font-first footer-color">Calz. Ticomán 500, Ciudad de México, CDMX, México</address><br>
-            <p class="footer-text font-first footer-color1">info@example.com</p>
-            <p class="footer-text font-first footer-color1">+52 55 5529 6000</p> 
+            <address class="footer-text font-first footer-color">Calz. Ticomán 500, Ciudad de México, CDMX, México
+                <p class="footer-text font-first footer-color1">info@example.com</p>
+                <p class="footer-text font-first footer-color1">+52 55 5529 6000</p> 
+            </address>
         </div>
-        
     </footer>
 
 </body>
 
-</body>
 </html>
